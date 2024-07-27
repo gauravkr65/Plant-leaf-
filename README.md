@@ -1,5 +1,5 @@
 ## Plant Leaf Disease Detection
-
+DATA SET LINK ===> https://www.kaggle.com/datasets/vipoooool/new-plant-diseases-dataset/data
 ##### About Dataset
 This dataset is recreated using offline augmentation from the original dataset.
 The original dataset can be found on this github repo.
