@@ -7,6 +7,11 @@ This dataset consists of about 87K rgb images of healthy and diseased crop leave
 The total dataset is divided into 80/20 ratio of training and validation set preserving the directory structure.
 A new directory containing 33 test images is created later for prediction purpose.
 
+The dataset is divided into three parts:
+- `train`: Used for training the model.
+- `valid`: Used for validating the model during training.
+- `test`: Used for testing the model after training.
+
 Project Description
 Plant Leaf Disease Detection
 This project involves developing a machine learning model to identify and classify plant leaf diseases from images using Convolutional Neural Networks (CNNs). 
@@ -23,6 +28,13 @@ Model Development:
 Develop a CNN model using TensorFlow and Keras to classify plant leaf images.
 Build a deep learning architecture consisting of multiple convolutional layers, max-pooling layers, and dense layers.
 Model Training and Evaluation:
+
+The training data is used to train the CNN model. The model is trained using the following parameters:
+- **Image Size**: 256x256
+- **Batch Size**: 32
+- **Epochs**: 10
+- **Optimizer**: Adam
+- **Loss Function**: Sparse Categorical Crossentropy
 
 Train the model using the training dataset and validate it using a separate validation dataset.
 Evaluate the model performance on a test dataset to assess accuracy, recall, and F1 score.
