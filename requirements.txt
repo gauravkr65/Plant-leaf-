@@ -4,4 +4,4 @@ pillow==8.3.2
 streamlit==0.89.0
 
 DATASET LINK
-=->kaggle datasets download -d vipoooool/new-plant-diseases-dataset
+=->https://www.kaggle.com/datasets/vipoooool/new-plant-diseases-dataset/data
